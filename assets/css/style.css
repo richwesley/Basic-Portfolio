@@ -11,7 +11,7 @@ header {
 	
 	background-color: #ffffff;
 	float: left;
-	width: 960px;
+	width: 960px
 }
 h1 {
 	width: 250px;
@@ -19,7 +19,8 @@ h1 {
 	float: left;
 	color: white;
 	font-family: Cambria, "Times", "Times New Roman", serif;
-	background-color: #4AAAA5
+	background-color: #4AAAA5;
+	height: 44px;
 }
 
 body {
@@ -30,25 +31,49 @@ body {
 }
 img {
 	float: left;
-	margin-right: 26px;
+	margin-right: 6px;
+	margin-left: 6px;
 }
 section {
 	background-image: url(../images/Background-Texture.jpg);
 	border: 3px solid #666666;
+	height: 500px
+		
+	
 }
 h2 {
 	clear: left;
 	color: #4aaaa5;
+	margin-left: 50px;
 }
+#portpic {
+	margin-left: 48px;
+}
+p {
+	line-height: 200%;
+	margin-left: 50px;
+	margin-right: 39px;
+}
+
+
 aside {
-	width: 270px;
+	width: 234px;
 	float: right;
 	margin-top: 30px;
+	background-color: #ffffff;
+	margin-right: 20px;
+	padding-left: 10px;
+	padding-right: 0px;
+	height: 121px;
 }
 
 article {
 	width: 650px;
 	display: inline-block;
+	background-color: #ffffff;
+	margin-top: 30px;
+	margin-left: 30px;
+	
 }
 
 footer {
@@ -60,4 +85,33 @@ footer {
 }
 a {
 	margin-left: 30px;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+a:visited {
+	color: #777777;
+}
+
+a:active  {
+	color: #777777;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
+h3  {
+	color: #4aaaa5;
+	margin-left: 35px;
+
+}
+form {
+	width: 650px;
 }
