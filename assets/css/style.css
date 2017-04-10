@@ -21,6 +21,8 @@ h1 {
 	font-family: Cambria, "Times", "Times New Roman", serif;
 	background-color: #4AAAA5;
 	height: 44px;
+	margin-left: 39px;
+	margin-bottom: -1px;
 }
 
 body {
@@ -37,7 +39,7 @@ img {
 section {
 	background-image: url(../images/Background-Texture.jpg);
 	border: 3px solid #666666;
-	height: 500px
+	height: auto;
 		
 	
 }
@@ -69,11 +71,11 @@ aside {
 
 article {
 	width: 650px;
-	display: inline-block;
 	background-color: #ffffff;
 	margin-top: 30px;
 	margin-left: 30px;
-	
+	display: inline-block;
+	margin-bottom: 30px;
 }
 
 footer {
@@ -114,4 +116,21 @@ h3  {
 }
 form {
 	width: 650px;
+	margin-left: 45px;
+}
+#button {
+	margin-top: 15px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 75px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+
+h4 {
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+}
+input {
+	width: 370px;
 }
