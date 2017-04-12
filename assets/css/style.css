@@ -1,8 +1,10 @@
 @charset "utf-8";
 nav {
-	margin-top: 30px;
-	width: 450px;
+	margin-top: 26px;
+	width: 275px;
 	float: right;
+	font-weight: normal;
+	margin-bottom: 2px;
 	
 }
 
@@ -20,9 +22,10 @@ h1 {
 	color: white;
 	font-family: Cambria, "Times", "Times New Roman", serif;
 	background-color: #4AAAA5;
-	height: 44px;
-	margin-left: 39px;
-	margin-bottom: -1px;
+	height: 39px;
+	padding-top: 1px;
+	font-size: xx-large;
+	font-weight: bold;
 }
 
 body {
@@ -32,9 +35,7 @@ body {
 	
 }
 img {
-	float: left;
-	margin-right: 6px;
-	margin-left: 6px;
+
 }
 section {
 	background-image: url(../images/Background-Texture.jpg);
@@ -47,9 +48,14 @@ h2 {
 	clear: left;
 	color: #4aaaa5;
 	margin-left: 50px;
+	font-size: x-large;
+	font-weight: bold;
+	margin-top: 5px;
 }
 #portpic {
 	margin-left: 48px;
+	float: left;
+	margin-right: 30px;
 }
 p {
 	line-height: 200%;
@@ -112,6 +118,9 @@ a:active  {
 h3  {
 	color: #4aaaa5;
 	margin-left: 35px;
+	font-size: large;
+	font-weight: bold;
+	margin-top: 10px;
 
 }
 form {
@@ -133,4 +142,17 @@ h4 {
 }
 input {
 	width: 370px;
+	margin-bottom: 19px;
+}
+.portfoio {
+	margin-left: 30px;
+	margin-bottom: 14px;
+
+
+
+}
+.socialIcons {
+	margin-top: 20px;
+	padding-top: 0px;
+
 }
